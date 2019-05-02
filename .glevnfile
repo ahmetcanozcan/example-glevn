@@ -1,0 +1,44 @@
+# 📣 .glevnfile most unique feature of glevn.
+# 📣 extra spaces and tabs will be ignored.
+# 📣 .glevnfile write by three block(MODULE,CONFIG,UNWATCHED)
+# 📣 using command in code lines somethimes may be a little bit buggy
+
+
+# 📣 Module block defines modules globally.
+DEFINE MODULE
+
+# 📣 You can access lodash  by `_` in your program
+import lodash as _
+
+# 📣 You can acces lodash by `lodash`
+import lodash
+
+# 📣 You can acces lodash.pick by `pick`
+import lodash.pick
+
+
+
+# 📣 Config block defines some configuration variables as global.config
+# 📣 It's accessible by `config.`
+DEFINE CONFIG
+
+# 📣 defines as a string
+assign FOO = GLEVNFILE 
+
+# 📣 defines as a number
+assign-num year=1881
+
+# 📣 defines as a boolean
+assign-bool isProduction = false
+
+
+
+# 📣 Unwatced file for glevmon feature
+DEFINE UNWATCHED
+
+#doesn't watch a spesific file
+unwatced.js
+
+#doesn't watch all txt files
+*.txt
+

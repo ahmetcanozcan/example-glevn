@@ -1,0 +1,19 @@
+{
+  "name": "glevn-example-project",
+  "version": "1.0.0",
+  "description": "An example project for understanding glevn features more clear",
+  "main": "app.js",
+  "scripts": {
+    "script1": "glevn app.js",
+    "script2": "glevn app.js --gfile",
+    "script3": "glevn app.js --glevmon",
+    "script4": "glevn app.js --glevmon --gfile",
+    "script5": "glevn app.js --glevmon --gfile --watch=src",
+    "script6": "glevn app.js --glevmon --gfile --gfile-src=json/gfile.json --env-src=json/env.json"
+  },
+  "author": "Ahmetcan ÖZCAN <ahmetcanozcan7@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}

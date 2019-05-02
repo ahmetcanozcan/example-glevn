@@ -1,0 +1,22 @@
+{
+  "MODULE": [{
+      "name": "_",
+      "ref": "lodash"
+    },
+    {
+      "name": "lodash",
+      "ref": "lodash"
+    },
+    {
+      "name": "pick",
+      "ref": "lodash.pick"
+    }
+
+  ],
+  "CONFIG": {
+    "FOO": "GLEVNJSON",
+    "year": 1938,
+    "isProduction": true
+
+  }
+}
